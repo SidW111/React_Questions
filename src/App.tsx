@@ -1,4 +1,5 @@
 import "./App.css";
+import { Parent } from "./Questions/Five";
 import { Four } from "./Questions/Four";
 import { Third } from "./Questions/Third";
 // import First from "./Questions/First";
@@ -8,9 +9,10 @@ function App() {
   return (
     <>
       {/* <First/> */}
-      {/* <Second/> */}
+      {/* <Second/>
       <Third />
-      <Four />
+      <Four /> */}
+      <Parent />
     </>
   );
 }
